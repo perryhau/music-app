@@ -4,7 +4,12 @@ from django.conf.urls import patterns, include, url
 # from django.contrib import admin
 # admin.autodiscover()
 
-urlpatterns = patterns('',
+urlpatterns = patterns('music_app.views',
+	url(r'^music_app/$', 'index'),
+	url(r'^music_app/improvisation$', 'improvisation'),
+	url(r'^music_app/counterpoint$', 'counterpoint'),
+	url(r'^music_app/orchestration$', 'orchestration'),
+	url(r'^music_app/documentation$', 'documentation'),
     # Examples:
     # url(r'^$', 'music_app_site.views.home', name='home'),
     # url(r'^music_app_site/', include('music_app_site.foo.urls')),
