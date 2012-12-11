@@ -10,6 +10,7 @@ urlpatterns = patterns('music_app.views',
 	url(r'^music_app/counterpoint$', 'counterpoint'),
 	url(r'^music_app/orchestration$', 'orchestration'),
 	url(r'^music_app/documentation$', 'documentation'),
+    
     # Examples:
     # url(r'^$', 'music_app_site.views.home', name='home'),
     # url(r'^music_app_site/', include('music_app_site.foo.urls')),

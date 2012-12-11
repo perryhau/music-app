@@ -1,1 +1,73 @@
-impor.html
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Home</title>
+<link href="/static/css/960_12_col.css" rel="stylesheet">
+<link href="/static/css/style.css" rel="stylesheet">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
+<script src="http://use.edgefonts.net/krona-one.js"></script>
+</head>
+
+{% extends 'base.html' %}
+
+{% block title %}
+<div class="grid_4">
+	<div id="improv_search">
+		<form id="improv_form">
+			<label for="time_signature">Time Signature</label>
+			<select id = "time_signature">
+				<option value="null"></option>
+  				<option value="3_4">3/4</option>
+  				<option value="4_4">4/4</option>
+  				<option value="6_8">6/8</option>
+			</select>
+			<label for="time_signature">Min. Tempo</label>
+			<select id = "time_signature">
+				<option value="null"></option>
+  				<option value="3_4">3/4</option>
+  				<option value="4_4">4/4</option>
+  				<option value="6_8">6/8</option>
+			</select>
+			<label for="time_signature">Max. Tempo</label>
+			<select id = "time_signature">
+				<option value="null"></option>
+  				<option value="3_4">3/4</option>
+  				<option value="4_4">4/4</option>
+  				<option value="6_8">6/8</option>
+			</select>
+			<label for="time_signature">Pre-progression</label>
+			<select id = "time_signature">
+				<option value="null"></option>
+  				<option value="3_4">3/4</option>
+  				<option value="4_4">4/4</option>
+  				<option value="6_8">6/8</option>
+			</select>
+			<label for="time_signature">Progression</label>
+			<select id = "time_signature">
+				<option value="null"></option>
+  				<option value="3_4">3/4</option>
+  				<option value="4_4">4/4</option>
+  				<option value="6_8">6/8</option>
+			</select>
+			<label for="time_signature">Post-progression</label>
+			<select id = "time_signature">
+				<option value="null"></option>
+  				<option value="3_4">3/4</option>
+  				<option value="4_4">4/4</option>
+  				<option value="6_8">6/8</option>
+			</select>
+
+		
+			
+			
+		</form>
+	</div>
+</div>
+<div class="grid_8">
+	<div id="improv_results">
+
+	</div>
+</div>
+{% endblock %}
