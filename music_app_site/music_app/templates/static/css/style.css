@@ -3,9 +3,6 @@ html
 {
 	font-family: arial;
 }
-
-
-
 #main_nav
 {
 
@@ -67,6 +64,12 @@ html
 	border-color: gray;
 
 }
+#improv_search form
+{
+	font-size: 12px;
+	padding: 10px;
+	
+}
 
 /* counterpoint */
 #counterpoint_results
@@ -109,26 +112,4 @@ html
 
 /* improv form */
 
-#improv_form label
-{
-	
-	display:block;
-	font-weight:bold;
-	text-align:left;
-	width:100px;
-	float:left;
-	font-size: 12px;
-	margin:5px;
-	padding-top: 10px;
 
-	
-}
-#improv_form input, select
-{
-float:left;
-font-size:12px;
-padding:10px;
-border:solid 1px #aacfe4;
-width:200px;
-margin:5px;
-}

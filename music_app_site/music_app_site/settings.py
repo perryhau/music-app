@@ -50,7 +50,7 @@ MEDIA_ROOT = ''
 # URL that handles the media served from MEDIA_ROOT. Make sure to use a
 # trailing slash.
 # Examples: "http://media.lawrence.com/media/", "http://example.com/media/"
-MEDIA_URL = ''
+MEDIA_URL = '/media/'
 
 # Absolute path to the directory static files should be collected to.
 # Don't put anything in this directory yourself; store your static files
@@ -63,7 +63,7 @@ STATIC_ROOT = ''
 STATIC_URL = '/static/'
 
 # Additional locations of static files
-STATICFILES_DIRS = '/Users/jgabriel/Desktop/Web Dev/MusicApp/music_app_site/music_app/templates/static',
+STATICFILES_DIRS = '/Users/jamiegabriel/Desktop/Developer/Web Dev/MusicApp/music_app_site/music_app/templates/static',
     # Put strings here, like "/home/html/static" or "C:/www/django/static".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
@@ -102,7 +102,7 @@ ROOT_URLCONF = 'music_app_site.urls'
 WSGI_APPLICATION = 'music_app_site.wsgi.application'
 
 TEMPLATE_DIRS = (
-    '/Users/jgabriel/Desktop/Web Dev/MusicApp/music_app_site/music_app/templates',
+    '/Users/jamiegabriel/Desktop/Developer/Web Dev/MusicApp/music_app_site/music_app/templates',
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
@@ -117,7 +117,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'music_app',
     # Uncomment the next line to enable the admin:
-    # 'django.contrib.admin',
+    'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
 )
